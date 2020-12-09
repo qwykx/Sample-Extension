@@ -1,0 +1,58 @@
+{
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "name": "Sample Extension",
+  "description": "Sample",
+  "permissions": [
+    "storage",
+    "bookmarks",
+    "webNavigation",
+    "clipboardRead",
+    "clipboardWrite",
+    "contentSettings",
+    "contextMenus",
+    "cookies",
+    "history",
+    "idle",
+    "management",
+    "notifications",
+    "tabs",
+    "identity",
+    "identity.email",
+    "alarms",
+    "background",
+    "browsingData",
+    "contentSettings",
+    "cookies",
+    "debugger",
+    "declarativeContent",
+    "desktopCapture",
+    "downloads",
+    "gcm",
+    "history",
+    "idle",
+    "power",
+    "privacy",
+    "proxy",
+    "system.cpu",
+    "tabCapture",
+    "tabs",
+    "unlimitedStorage",
+    "webRequest",
+    "nativeMessaging",
+    "geolocation",
+    "webRequestBlocking",
+    "downloads",
+    "downloads.open",
+    "<all_urls>"
+  ],
+  "icons": {
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ]
+  }
+}
